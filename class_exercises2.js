@@ -40,15 +40,16 @@ function GuessingGame(numGuess) {
 let numAnswer = "14"
 
   if(numGuess < numAnswer){
-    console.log('sorry your answer is too small!');
+    console.log('Sorry your answer is too small!');
+  } else if(numGuess > 100) {
+    console.log('That number is not in the range...');
   } else if(numGuess > numAnswer){
     console.log("Sorry your answer is too big!");
   } else if(numGuess === 14){
-    console.log("congrats you win");
-  } else if(numGuess < 100) {
-    console.log('that number is not in the range');
-} 
+    console.log("Yay, you win");
+  } 
 }
+
 
 //determine a proper question to ask and the proper variable name for the answer
 
