@@ -29,11 +29,12 @@ if(numberOfGuessesMade >= numberOfGuessesAllowed){
 This means you can close the game with both "quit" and losing
 */
 
-// choose a winnikng numbe4 14
-//tell them lets play a guessing game 
+// choose a winning number 14
+//tell them in console.log lets play a guessing game 
 // if the number is below 14 tell them its too small
 // if numbrt is above 14 tell them its too big
 // then if it equals 14 tell them theyre a winner
+
 //determine a proper parameter variable name
 function GuessingGame(numGuess) {
 let numAnswer = "14"
